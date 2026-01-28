@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Lean Engineering Solutions - Web de Consultoría
 
-This contains everything you need to run your app locally.
+Este proyecto es una web profesional para consultoría de ingeniería, optimizada para rendimiento y despliegue rápido.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1hLNlNXGSE9IpqnkR_B2l8eRgcbKBP0ej
+## 🚀 Cómo publicar en GitHub Pages (Paso a Paso)
 
-## Run Locally
+1. **Crear un Repositorio**: Crea un nuevo repositorio en tu cuenta de GitHub (ej. `ingenieria-lean`).
+2. **Subir los Archivos**: Sube todos los archivos de esta carpeta a la rama `main`.
+3. **Automatización**: Al subir los archivos, verás una pestaña llamada **"Actions"** en tu repo de GitHub. Ahí aparecerá un proceso llamado "Deploy to GitHub Pages". Espera a que termine (se pondrá en verde).
+4. **Configurar Pages**:
+   - Ve a **Settings** > **Pages** en tu repositorio.
+   - En "Build and deployment" > "Branch", selecciona la rama **`gh-pages`** (esta rama se crea sola tras el primer despliegue exitoso) y la carpeta `/ (root)`.
+   - Haz clic en **Save**.
+5. **¡Listo!**: En unos segundos, GitHub te dará el enlace oficial de tu web (ej. `https://tu-usuario.github.io/ingenieria-lean/`).
 
-**Prerequisites:**  Node.js
+## 🛠️ Tecnologías Usadas
+- **React 19**: Interfaz de usuario moderna.
+- **Tailwind CSS**: Estilizado de alta velocidad.
+- **Canvas API**: Esfera 3D técnica personalizada (sin librerías externas pesadas).
+- **Vite**: Motor de construcción ultrarrápido.
+- **GitHub Actions**: Despliegue continuo automático.
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📝 Notas de Ingeniería
+El sitio incluye:
+- Optimizador de CAPEX interactivo.
+- Sección de comparación de modelos de valor.
+- Diseño responsivo para móviles y desktop.
+- Soporte multi-idioma (ES/EN).
